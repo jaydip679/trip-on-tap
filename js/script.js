@@ -25,3 +25,25 @@ function showSuccessMessage() {
 function showErrorMessage() {
     alert("Please fill all required fields.");
 }
+
+// Day 5: DOM Selection
+const form = document.getElementById("contactForm");
+const statusMessage = document.getElementById("statusMessage");
+
+// Day 6 & 7: Event Handling + Validation
+form.addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    const name = form.elements[0].value;
+    const email = form.elements[1].value;
+
+    if (isFormValid(name, email)) {
+        statusMessage.textContent = "Form submitted successfully!";
+        statusMessage.style.color = "green";
+        showSuccessMessage();
+    } else {
+        statusMessage.textContent = "Please fill all required fields.";
+        statusMessage.style.color = "red";
+        showErrorMessage();
+    }
+});
