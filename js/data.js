@@ -5,7 +5,7 @@ const tours = [
         location: "Goa",
         price: 15000,
         duration: "3 Days",
-        image: "images/goa.jpg"
+        image: "images/goa.jpeg"
     },
     {
         id: 2,
@@ -13,7 +13,7 @@ const tours = [
         location: "Manali",
         price: 22000,
         duration: "5 Days",
-        image: "images/manali.jpg"
+        image: "images/manali.jpeg"
     },
     {
         id: 3,
@@ -21,6 +21,6 @@ const tours = [
         location: "Jaipur",
         price: 12000,
         duration: "2 Days",
-        image: "images/jaipur.jpg"
+        image: "images/jaipur.jpeg"
     }
 ];
