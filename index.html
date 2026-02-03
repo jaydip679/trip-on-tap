@@ -7,23 +7,23 @@
 </head>
 <body>
 
-<header>
+<header class="navbar">
     <h1>Trip On Tap</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="packages.html">Packages</a>
+        <a href="contact.html">Contact</a>
+    </nav>
 </header>
 
 <main>
-    <h2>Welcome to Trip On Tap</h2>
-    <p>Your one-stop solution for exploring amazing travel destinations.</p>
+    <section class="hero">
+        <h2>Explore the World with Us</h2>
+        <p>Book unforgettable travel experiences</p>
+    </section>
 
-    <section class="page-section">
+    <section>
         <h2>Popular Tours</h2>
-
-        <input type="text" id="searchInput" placeholder="Search by destination">
-        <select id="priceFilter">
-            <option value="all">All Prices</option>
-            <option value="low">Low to High</option>
-        </select>
-
         <div id="tourContainer" class="card-container"></div>
     </section>
 </main>
