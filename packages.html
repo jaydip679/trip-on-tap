@@ -1,36 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Trip On Tap | Packages</title>
+    <title>Packages</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<header>
+<header class="navbar">
     <h1>Trip On Tap</h1>
     <nav>
-        <a href="index.html">Home</a> <br>
-        <a href="destinations.html">Destinations</a> <br>
-        <a href="packages.html">Packages</a> <br>
-        <a href="about.html">About</a> <br>
-        <a href="contact.html">Contact</a> <br>
+        <a href="index.html">Home</a>
+        <a href="packages.html">Packages</a>
+        <a href="contact.html">Contact</a>
     </nav>
 </header>
 
 <main>
     <h2>Travel Packages</h2>
-    <ul>
-        <li>Goa Beach Package - 3 Days</li>
-        <li>Manali Adventure Trip - 5 Days</li>
-        <li>Jaipur Heritage Tour - 2 Days</li>
-    </ul>
+
+    <div class="package" data-package="Goa Beach Tour">
+        <h3>Goa Beach Tour</h3>
+        <p>₹15,000 – 3 Days</p>
+        <button class="selectPackage">Book Now</button>
+    </div>
+
+    <div class="package" data-package="Manali Adventure Trip">
+        <h3>Manali Adventure Trip</h3>
+        <p>₹22,000 – 5 Days</p>
+        <button class="selectPackage">Book Now</button>
+    </div>
 </main>
 
 <footer>
-    <p>2026 Trip On Tap</p>
+    <p>© 2026 Trip On Tap</p>
 </footer>
 
-<script src="js/script.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
