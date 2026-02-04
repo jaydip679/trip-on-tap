@@ -1,27 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Tour Details</title>
+    <title>Booking</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<h2>Tour Details</h2>
-<div id="tourDetails"></div>
+<header class="navbar">
+    <h1>Trip On Tap</h1>
+</header>
 
-<h3>Book This Tour</h3>
-<form id="bookingForm">
-    <input type="text" id="name" placeholder="Name">
-    <input type="email" id="email" placeholder="Email">
-    <input type="date" id="date">
-    <input type="number" id="people" placeholder="Number of Travelers">
-    <button type="submit">Book Now</button>
-</form>
+<main>
+    <h2>Booking Form</h2>
 
-<p id="bookingStatus"></p>
+    <form id="bookingForm">
+        <label>Name</label>
+        <input type="text" id="name">
 
-<script src="js/data.js"></script>
-<script src="js/ui.js"></script>
+        <label>Email</label>
+        <input type="email" id="email">
+
+        <label>Phone</label>
+        <input type="text" id="phone">
+
+        <label>Travel Date</label>
+        <input type="date" id="date">
+
+        <button type="submit">Confirm Booking</button>
+    </form>
+
+    <p id="bookingStatus"></p>
+</main>
+
 <script src="js/main.js"></script>
 </body>
 </html>
