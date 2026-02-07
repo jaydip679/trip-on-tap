@@ -1,18 +1,15 @@
 # Trip On Tap
 
-Trip On Tap is a simple **travel and tourism website** created using **HTML and CSS** as part of **Winter of Code – Shadows of Syntax (Checkpoint 1)**.
+A travel and tourism website built using HTML, CSS, and JavaScript for
+Winter of Code – Shadows of Syntax.
 
----
+## Features
+- Dynamic tours
+- Booking form validation
+- Responsive design
+- JavaScript interactivity
 
 ## Technologies Used
-- HTML5
-- CSS3
-
----
-
-## Pages Included
-- Home
-- Destinations
-- Packages
-- About
-- Contact
+- HTML
+- CSS
+- JavaScript
